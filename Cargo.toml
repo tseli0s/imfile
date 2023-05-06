@@ -1,0 +1,31 @@
+[package]
+name    = "imfile"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+description = "A simple and customizable file dialog for imgui-rs written entirely in Rust."
+authors     = [ "Aggelos Tselios <aggelostselios777@gmail.com>" ]
+repository  = "https://github.com/tseli0s/imfile"
+keywords    = [
+    "imgui",
+    "dialog",
+    "gui",
+    "file"
+]
+
+[dependencies]
+imgui = "0.11"
+log   = "0.4"
+
+[dev-dependencies]
+env_logger          = "0.10"
+error-iter          = "0.4"
+imgui               = "0.11"
+imgui-winit-support = "0.11"
+pixels              = "0.12.1"
+winit               = "0.27"
+winit_input_helper  = "0.13"
+
+[dev-dependencies.imgui-wgpu]
+git = "https://github.com/Yatekii/imgui-wgpu-rs.git"
