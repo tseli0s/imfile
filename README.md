@@ -15,7 +15,7 @@ Basic usage:
 ```rust
 use imfile::FileDialog;
 
-fn main() -> {
+fn main() {
     // set up your imgui::Ui here
 
     // This returns None if no file was selected
